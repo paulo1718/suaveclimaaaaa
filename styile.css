@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    /* Estilos para telas menores */
+    h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* Outros ajustes conforme necessário */
+}
+.reviews {
+         background-color: ; /* Cor de fundo da caixa de avaliação */
+         color: red; /* Cor do texto dentro da caixa de avaliação */
+         margin-bottom: 20px; /* Espaçamento entre as avaliações */
+         }

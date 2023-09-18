@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 4px solid black;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    text-align: center;
+    display: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.hero {
+    background-image: url('ondicionado.jpg');
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.service p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.about {
+    background-color: black;
+    padding: 90px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.review h3 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.review p {
+    font-size: 1em;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+}
+
+.instagram-link,
+.whatsapp-link {
+    text-decoration: none;
+    color: #25d366;
+    font-weight: bold;
+}
+
+.instagram-link:hover,
+.whatsapp-link:hover {
+    color: red;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /* Isso faz com que o header ocupe toda a altura da janela */
+    background-color: #333;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para links no rodapé */
+footer a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6c4e;
+}
+/* Estilos para o contêiner do formulário */
+.formulario-de-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para os campos de entrada de texto e email */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para o botão de envio */
+.botao-de-envio {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão de envio quando o cursor está sobre ele */
+.botao-de-envio:hover {
+    background-color: #0056b3;
+}
+
